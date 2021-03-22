@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Amanya's blog!"
 date:   2021-03-18 12:03:42 +0300
 categories: jekyll update
 ---
