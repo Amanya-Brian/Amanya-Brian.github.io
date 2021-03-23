@@ -23,4 +23,4 @@ jobs:
     - uses: actions/checkout@v2
     - uses: helaili/jekyll-action@2.0.1
     env:
-          MYBLOG: ${{ secrets.MYBLOG }}
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
