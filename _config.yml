@@ -29,7 +29,8 @@ twitter_username: '@amanyabri'
 github_username:  Amanya-Brian
 
 # Build settings
-theme: cayman
+theme: jekyll-theme-cayman
+
 plugins:
   - jekyll-feed
 
