@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Testing GitHub Actions"
-date:   2021-03-18 12:03:42 +0300
-categories: jekyll update
----
-#### Testing GitHub pages
-This post is to check whether github pages automatically deploys a change in the site 
