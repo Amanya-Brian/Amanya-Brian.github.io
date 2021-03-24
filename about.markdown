@@ -22,8 +22,9 @@ Hello, I'm Amanya Brian, a software developer mainly looking to provide solution
 ### Skills
 
 1. Web Development using
+    * Ruby on Rails
     * Laravel
     * ReactJS
-    * Mongo DB
+    * Couch DB
 1. Mobile app development using
     * React native
