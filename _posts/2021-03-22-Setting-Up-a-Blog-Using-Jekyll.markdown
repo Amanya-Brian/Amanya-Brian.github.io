@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting Up a Blog Using Jekyll"
 description: "Setting up a blog using jekyll"
-date:   2021-03-18 12:03:42 +0300
+date:   2021-03-22 12:03:42 +0300
 categories: jekyll update
 excerpt_separator: <!--more-->
 ---
