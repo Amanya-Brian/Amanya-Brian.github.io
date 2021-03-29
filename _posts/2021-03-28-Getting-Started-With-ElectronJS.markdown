@@ -154,7 +154,7 @@ Like any other Node.JS application, the *package.json* is the main entry point f
 #### Brief explanation:
 * Change the *main* key to have a value of *main.js* since it is the main script of the application.
 * In the *scripts* array, add the *start* key with a value of *electron* so that the script runs with Electron.
-* The *author* and *description are very important during packaging and if not defined, an error will occur.
+* The *author* and *description* are very important during packaging and if not defined, an error will occur.
 
 ### Running the application
 We are done! You can run the new Electron app using:
