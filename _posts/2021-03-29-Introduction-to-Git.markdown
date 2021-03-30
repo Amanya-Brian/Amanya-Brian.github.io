@@ -2,7 +2,7 @@
 layout: post
 title:  "An overview of Git"
 description: "Git and GitHub"
-date:   2021-03-24 12:03:42 +0300
+date:   2021-03-29 11:03:42 +0300
 categories: jekyll update
 ---
 ## What is Git?
@@ -19,7 +19,7 @@ To start, ensure that Git is installed on your machine. Check if Git is installe
 {% highlight ruby %}
 git --version
 {% endhighlight %}
-It is important to declare yourself to Git using youor email and password before doing any operation. Use these commands to declare:
+It is important to declare yourself to Git using your email and password before doing any operation. Use these commands to declare:
 {% highlight ruby %}
 git config --global user.name "Your Name Comes Here"
 git config --global user.email you@yourdomain.example.com
@@ -55,4 +55,57 @@ git status
 git log
 {% endhighlight %}
 
-## Branching using Git
+## Branching and Merging using Git
+Git provides very powerful features called branching and merging. Branching is used to support parallel developments and gives a lot of flexibility in workflow. Merging helps to combine the changes of the parallel developments made in the separate branches.
+
+### Creating a new branch in the loacl repository
+You can create a new branch in the local repository called trial by running:
+{% highlight ruby %}
+git checkout -b trial
+# you can also use
+git branch trial
+{% endhighlight %}
+
+Switch to the new branch using:
+{% highlight ruby %}
+git checkout trial
+{% endhighlight %}
+
+To find out the branches in your repository and which ones you are working on, use:
+{% highlight ruby %}
+git branch
+{% endhighlight %}
+
+### Committing to the new branch
+Now that we have changed to the trial branch, let's make some changes to our file and commit to the trial branch. Follow the *git add* and *git commit* commands as discussed earlier to commit to the new branch. In order to confirm that the commit, use *git log* as also discussed earlier.
+
+### Merging branches in Git
+Merging is done when we want to combine changes made in different branches on the repository. This cane however develop conflicts in the process, if there are some parts of the files with different information.
+For our project, the trial branch is ahead of the master branch by one commit. The changes in the trial branch can be implemented in the master branch by first switching to the master branch, then doing the merge:
+{% highlight ruby %}
+# switch to master branch
+git checkout master
+# merge changes into master
+git merge trial
+{% endhighlight %}
+
+## The remote reopsitory
+* For now we have been working on the remote repository and we are going to look at working on the remote repository. In case of collaborations, other developers can only see the code on the remote repository.
+![remote repo demo](/assets/images/remote.jpeg)
+* We are going to use GitHub for the remote repository. Visit [GitHub](https://github.com) to create your account if you don't have one yet. 
+* When this is done, create a repository and give it a name. On opening the repository, you will find a screen like this, highlighting the link to the repository.
+![remote repo link](/assets/images/remote_link.png)
+* To set up this remote repo with your local repo, use the following command:
+{% highlight ruby %}
+git remote add origin [url]
+{% endhighlight %}
+
+### Pushing changes from the local repository
+We can now push changes committed from the local repository to the remote repository using the *git push* command:
+{% highlight ruby %}
+git push -u origin [branch name]
+{% endhighlight %}
+This will push changes from the current branch in the local repository to the same branch in the remote repository.
+
+## Conclusion
+Thank you for following through to the end. These are the most basic commands of Git. There are more advanced features that you will have to explore and can visit the [GitHub documentation reference](https://git-scm.com/doc). With this, you can work with Git on simple projects.
