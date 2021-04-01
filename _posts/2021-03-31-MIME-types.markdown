@@ -27,6 +27,7 @@ There are very many MIME types for the web:
 * text/javascript for JavaScript files.
 * text/markdown for Markdown files.
 * application/octet-stream for binary files where user action is expected.
+
 There are also MIME types used to reference JavaScript
 * application/javascript
 * application/ecmascript
