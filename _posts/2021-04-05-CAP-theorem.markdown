@@ -39,4 +39,4 @@ This means that any messages being sent between the servers can be dropped. If a
 
 <hr>
 
-A system can not provide all the three properties simultaneously
+A system can not provide all the three properties simultaneously.
