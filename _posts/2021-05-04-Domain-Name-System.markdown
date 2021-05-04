@@ -6,6 +6,7 @@ date:   2021-05-04 06:02:38 +0300
 categories: jekyll update
 ---
 
+![Workflow template](/assets/images/DNS.png)
 # What is the DNS?
 The simplest way of understanding the DNS is by referring to it as the *phonebook of the internet*. Web browsers interact with the internet using IP addresses, which are unique addresses of each device connected to the internet. DNS servers save humans the burden of memorizing these IP addresses by using simple domain names such as *github.com*.
 
