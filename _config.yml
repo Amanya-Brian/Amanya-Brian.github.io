@@ -24,20 +24,22 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is surely going to be more than just a blog, but also a site to help a young developer out there on some
   key issues in their software development journey.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://amanya-brian.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: '@amanyabri'
 github_username:  Amanya-Brian
+# remote_theme: pietromenna/jekyll-architect-theme
 
 # Build settings
-theme: minima
+# theme: minima
+theme: jekyll-theme-architect
 
 plugins:
   - jekyll-feed
 
 permalink: /:title/
 markdown: kramdown
-paginate: 5
-paginate_path: "/:num/"
+# paginate: 5
+# paginate_path: "/:num/"
 date_format: "%b %-d, %Y"
 
 # Exclude from processing.
