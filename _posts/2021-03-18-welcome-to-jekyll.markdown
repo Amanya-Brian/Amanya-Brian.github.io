@@ -9,4 +9,4 @@ Hi there,
 
 You are most welcome to this blog site. I hope it will be a wonderful experience for you and me. I look to grow the life of a junior developer out there as I look to grow my steps in Software development. 
 
-Let's explore technology together.
+Have fun as we explore technology together.
